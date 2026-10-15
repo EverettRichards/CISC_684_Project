@@ -10,6 +10,10 @@
 
 `cd CISC_684_Project`
 
+**Create a new Venv:** *(If you prefer Conda, skip this step and go do that... I don't judge.)*
+
+`python -m venv .venv`
+
 **Activate the Venv:**
 
 Linux:
