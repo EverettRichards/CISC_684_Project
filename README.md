@@ -34,3 +34,11 @@ Windows:
 
 
 *Note: In Jupyter Notebooks, select the Venv as the execution environment.*
+
+**Download OLLama**
+
+Linux:
+
+`curl -fsSL https://ollama.com/install.sh | sh`
+
+`ollama pull llama3.2`
