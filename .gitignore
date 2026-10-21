@@ -1,3 +1,6 @@
 .venv/
 dataset.arff
 dataset.csv
+=*
+data/*
+!data/.gitkeep
