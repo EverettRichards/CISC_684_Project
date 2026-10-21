@@ -30,6 +30,8 @@ Windows:
 
 **Download the dataset**
 
+This script will automatically download the dataset, downsample it, and perform test/train/validation split, putting the resulting files in the `data` directory:
+
 `python download_dataset.py`
 
 
