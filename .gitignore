@@ -2,6 +2,8 @@
 dataset.arff
 dataset.csv
 =*
-data/*
-!data/.gitkeep
 __pycache__/
+data/dataset.csv
+data/dataset.arff
+#data/*
+#!data/.gitkeep
