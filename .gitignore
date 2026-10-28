@@ -2,7 +2,6 @@
 dataset.arff
 dataset.csv
 =*
+!data/.gitkeep
 data/dataset.csv
 data/dataset.arff
-#data/*
-#!data/.gitkeep
