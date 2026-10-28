@@ -4,3 +4,4 @@ dataset.csv
 =*
 data/*
 !data/.gitkeep
+__pycache__/*
