@@ -1,3 +1,4 @@
+import numpy as np
 # Downsamples the provided dataframe
 import re
 
@@ -30,10 +31,18 @@ def squashOneHots(df):
 def cleanWhitespace(filePath):
     with open(filePath, "r") as file:
         lines = file.readlines()
-
     with open(filePath, "w") as file:
         file.writelines(
             re.sub(r"(?<=\S) {2,}", " ", line)
             for line in lines
         )
-    
+
+def truncateDecimals(df,digits=3):
+    df_copy = df.copy()
+    factor = 10**digits
+    num_cols = df_copy.select_dtypes(include=[np.number]).columns
+
+    for col in num_cols:
+        df_copy[col] = np.trunc(df_copy[col] * factor) / factor
+
+    return df_copy
