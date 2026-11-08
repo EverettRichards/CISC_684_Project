@@ -5,3 +5,4 @@ dataset.csv
 !data/.gitkeep
 data/dataset.csv
 data/dataset.arff
+__pycache__
