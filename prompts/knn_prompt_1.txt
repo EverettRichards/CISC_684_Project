@@ -45,5 +45,5 @@
 1,0.5797,0.7916,0.2878,0.0887,0.2726,0.0567,0.6496,0.9291,0.8267,0.23,24,3
 
 
-        Now, enter the class number (1 to 7) here. Class:
+        Now, enter the class number (1 to 7) here. Your response should be a single number, with no additional text or formatting.
     
