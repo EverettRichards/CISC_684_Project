@@ -6,3 +6,4 @@ dataset.csv
 data/dataset.csv
 data/dataset.arff
 data/prompts/*
+__pycache__
