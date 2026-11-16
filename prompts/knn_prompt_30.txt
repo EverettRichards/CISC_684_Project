@@ -1,0 +1,25 @@
+
+        You are tasked with identifying a tree's class / variety based on a variety of factors,
+        including soil type, wilderness area, hillshade, distance to certain geological features, and local topography.
+
+        You are given the features of one "test tree" (without the class label), as well as the features and classes of
+        the top 1 trees (from a dataset of tens of thousands of trees), as measured by feature distance to the chosen test tree.
+
+        Your task is to simply output one number, from 1 to 7, corresponding to the class you believe the tree belongs to.
+        DO NOT simply perform a K-nearest-neighbors plurality. Use your world knowledge, general reasoning, and observations from the data
+        to make an informed conclusion.
+
+        1 nearest neighbors:
+
+        ,Elevation,Aspect,Slope,Horizontal_Distance_To_Hydrology,Vertical_Distance_To_Hydrology,Horizontal_Distance_To_Roadways,Hillshade_9am,Hillshade_Noon,Hillshade_3pm,Horizontal_Distance_To_Fire_Points,distance,class,Soil_Type,Wilderness_Area
+6,0.2986,0.2194,0.3484,0.0429,0.2428,0.2537,0.9566,0.7559,0.2637,0.0487,0.1333,3.0,10,3
+
+
+        Unclassified point:
+
+        ,Elevation,Aspect,Slope,Horizontal_Distance_To_Hydrology,Vertical_Distance_To_Hydrology,Horizontal_Distance_To_Roadways,Hillshade_9am,Hillshade_Noon,Hillshade_3pm,Horizontal_Distance_To_Fire_Points,Soil_Type,Wilderness_Area
+30,0.3686,0.2027,0.3787,0.1073,0.2868,0.2893,0.9448,0.7204,0.2283,0.0897,10,3
+
+
+        Now, enter the class number (1 to 7) here. Your response should be a single number, with no additional text or formatting.
+    
